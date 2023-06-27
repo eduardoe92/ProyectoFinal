@@ -14,7 +14,7 @@ const footerHTML = `
         <div class="footer_right">
             <div class="footer_component_list">
                 <ul>
-                    <li><a href="index.html">Ir al principio</a></li>
+                    <li><a href="#contenido">Ir al principio</a></li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,52 @@
+body.dark-mode,
+body.dark-mode .talk,
+body.dark-mode .contact {
+    background-color: #2a2a2a;
+    color: rgb(48, 48, 48);
+}
+
+body.dark-mode .header_container {
+    background-color: #333333;
+    border-bottom-color: #ffffff;
+    color: #ffffff;
+}
+
+body.dark-mode .welcome_component_text,
+body.dark-mode .titulo_contact,
+body.dark-mode .Titulo_Redes_Sociales {
+    color: white;
+}
+
+body.dark-mode .Description_component_logo img{
+    box-shadow: 5px 5px 5px 5px rgb(118, 118, 118);
+}
+
+body.dark-mode .header_component_nav a,
+body.dark-mode .button {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+body.dark-mode .header_component_nav a:hover,
+body.dark-mode .button:hover {
+    background-color: rgb(131, 131, 131);
+}
+
+body.dark-mode .description_text_container,
+body.dark-mode .talk_component_text,
+body.dark-mode .contact_component_text {
+    background-color: #a7a7a7;
+}
+
+body.dark-mode .contact_inputs {
+    background-color: #626262;
+    color: rgb(48, 48, 48);
+}
+
+body.dark-mode .Componentes_Redes_Sociales {
+    background-color: rgb(131, 131, 131);
+}
+
+body.dark-mode .footer_container {
+    background-color: #404040;
+}

@@ -143,6 +143,7 @@ header {
 
 .welcome_container {
     text-align: center;
+    margin-top: 50px;
 }
 
 .welcome_component_text {
@@ -166,17 +167,14 @@ header {
         font-size: 20px;
     }
 
-    /* Nuevos estilos para .welcome_component_text */
     .welcome_component_text {
         font-size: 18px;
-        /* Ajusta el tamaño del texto según tu preferencia */
     }
 }
 
 @media screen and (max-width: 767px) {
     .welcome_component_text {
         font-size: 16px;
-        /* Ajusta el tamaño del texto según tu preferencia */
     }
 }
 
@@ -200,16 +198,14 @@ header {
     display: none;
 }
 
-#segunda-imagen {
-    display: none;
-}
-
 .Description_component_logo img {
     max-width: 70%;
-    max-height: 70%;
+    max-height: auto;
     border-radius: 50%;
     border: none;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 .Description_component_text {
@@ -406,6 +402,7 @@ header {
 }
 
 /*=============================================================================*/
+
 .titulo_contact {
     display: flex;
     justify-content: center;
@@ -642,7 +639,6 @@ header {
     }
 }
 
-
 /*=============================================================================*/
 
 .Redes_Sociales {
@@ -659,7 +655,9 @@ header {
 .logo {
     width: 85px;
     height: 85px;
-    margin-bottom: 10px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .Titulo_Redes_Sociales {
@@ -672,8 +670,6 @@ header {
     .Titulo_Redes_Sociales {
         font-size: 20px;
     }
-
-
 
     .logo {
         width: 75px;

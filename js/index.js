@@ -15,4 +15,4 @@ function toggleImages() {
     }
 }
 
-setInterval(toggleImages, 2000); // Alterna las imágenes cada 2 segundos
+setInterval(toggleImages, 2000); 

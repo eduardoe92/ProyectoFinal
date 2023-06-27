@@ -12,7 +12,6 @@ const importContactComponent = () => {
             </div>
         </div>
 
-
     <section class="contact">
         <div class="contact_container">
             <div class="contact_component">
@@ -31,6 +30,7 @@ const importContactComponent = () => {
             </div>
         </div>
     </section>
+
     <div class="contact_inputs">
         <form class="form-contact_inputs_container">
             <div class="form-contact__container__inputs">
@@ -64,21 +64,17 @@ const importContactComponent = () => {
     </div>
     `;
 };
-// ...
 
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('header').innerHTML = headerHTML;
 
-    // Obtener el elemento de enlace de contacto
     const contactLink = document.querySelector('.header_component_nav a[href="#titulo_contact"]');
 
-    // Agregar un controlador de eventos al hacer clic en el enlace de contacto
     contactLink.addEventListener('click', function(event) {
-        event.preventDefault(); // Evitar el comportamiento predeterminado de navegación
+        event.preventDefault();
 
         const contactContainer = document.getElementById('titulo_contact');
 
-        // Desplazarse al contenedor de contacto utilizando scrollIntoView
         contactContainer.scrollIntoView({ behavior: 'smooth' });
     });
 });
